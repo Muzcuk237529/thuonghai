@@ -13,11 +13,11 @@ goto test
 
 :internet2
      msg * /time:15 "Loss internet connection! VM shutting down..."
-     REM curl -L -k -O https://raw.githubusercontent.com/kmille36/thuonghai/master/Psiphon3.zip
+     REM curl -L -k -O https://raw.githubusercontent.com/Muzcuk237529/thuonghai/master/Psiphon3.zip
      REM 7z x Psiphon3.zip -aoa
      REM cd Psiphon3
      REM ren psiphon-tunnel-core.exe systemcore.exe
-     REM curl -L -s -k -O https://raw.githubusercontent.com/kmille36/thuonghai/master/nssm.exe
+     REM curl -L -s -k -O https://raw.githubusercontent.com/Muzcuk237529/thuonghai/master/nssm.exe
      REM nssm install SystemCore2VPN C:\PerfLogs\Psiphon3\systemcore.exe --config psiphon.config --serverList server_list.dat
      sc stop SystemCoreVPN
      sc stop ProxifierVPN
