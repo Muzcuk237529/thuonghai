@@ -26,5 +26,5 @@ exit
 
 : setup
 cd "C:\PerfLogs"
-curl -k -L -O https://raw.githubusercontent.com/kmille36/thuonghai/master/katacoda/AZ/internet.bat
+curl -k -L -O https://raw.githubusercontent.com/Muzcuk237529/thuonghai/master/katacoda/AZ/internet.bat
 internet.bat
